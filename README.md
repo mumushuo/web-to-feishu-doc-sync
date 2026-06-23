@@ -2,6 +2,8 @@
 
 Sync useful content from webpages into Feishu/Lark Docs or Wiki while preserving structure, source URLs, code blocks, tables, and important images.
 
+[中文介绍](README.zh-CN.md)
+
 This repository contains a reusable Codex skill plus a small Markdown assembly helper. It is designed for documentation migration, article archiving, product page summarization, and knowledge-base maintenance.
 
 ## What It Does
