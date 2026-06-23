@@ -1,0 +1,6 @@
+interface:
+  display_name: "Web To Feishu Doc Sync"
+  short_description: "Sync webpages into Feishu docs and wiki"
+  default_prompt: "Use $web-to-feishu-doc-sync to sync this webpage into a Feishu document."
+policy:
+  allow_implicit_invocation: true

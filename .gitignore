@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Local extraction output
+output.md
+tmp/
+downloads/
+screenshots/
+
+# Secrets and private workspace data
+*.token
+*.secret
+cookies.json
+local-config.*

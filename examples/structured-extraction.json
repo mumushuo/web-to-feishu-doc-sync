@@ -1,0 +1,37 @@
+{
+  "title": "Example API Documentation",
+  "url": "https://example.com/docs/api",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "This example shows the structured extraction format accepted by scripts/assemble_markdown.py."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Request"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "text": "curl https://api.example.com/v1/items"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Response"
+    },
+    {
+      "type": "code",
+      "language": "json",
+      "text": "{\n  \"items\": []\n}"
+    },
+    {
+      "type": "table",
+      "headers": ["Field", "Description"],
+      "rows": [
+        ["items", "A list of returned items"]
+      ]
+    }
+  ]
+}
