@@ -73,6 +73,12 @@
 
 ### 安装为 Codex Skill
 
+下载入口：
+
+- 完整仓库下载：[Download ZIP](https://github.com/mumushuo/web-to-feishu-doc-sync/archive/refs/heads/main.zip)
+- 完整 Skill 文件：[SKILL.md](https://github.com/mumushuo/web-to-feishu-doc-sync/blob/main/SKILL.md)
+- Skill 文件夹版本：[skill/SKILL.md](https://github.com/mumushuo/web-to-feishu-doc-sync/blob/main/skill/SKILL.md)
+
 下载整个仓库，并放到你的 Codex skills 目录：
 
 ```bash

@@ -45,17 +45,9 @@ web-to-feishu-doc-sync/
 
 ## Quick Start
 
-### Install as a Codex Skill
+### Download and Installation
 
-Download this repository and place it under your Codex skills directory:
-
-```bash
-git clone https://github.com/mumushuo/web-to-feishu-doc-sync.git
-mkdir -p ~/.codex/skills
-cp -R web-to-feishu-doc-sync ~/.codex/skills/
-```
-
-The complete skill entry file is available at [SKILL.md](SKILL.md). The same content is also mirrored at [skill/SKILL.md](skill/SKILL.md) for readers who prefer a dedicated skill folder view.
+See the Chinese guide for download links and installation steps: [README.zh-CN.md#快速开始](README.zh-CN.md#快速开始).
 
 ### Use the Skill
 
