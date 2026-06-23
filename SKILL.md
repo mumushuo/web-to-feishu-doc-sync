@@ -25,6 +25,8 @@ If the target is ambiguous and cannot be inferred from context, ask one concise 
 ## Workflow
 
 1. Identify source pages.
+   - Use this skill only for personal learning, testing, internal knowledge management, or content the user is legally allowed to access and reuse.
+   - Do not use it for illegal profit, copyright infringement, unauthorized scraping, redistribution of protected content, privacy violations, account abuse, or other activity that infringes third-party rights.
    - Prefer browser/Chrome for pages that require login, dynamic rendering, or sidebar navigation.
    - Prefer direct URL fetch only when the page is public and static.
    - For a screenshot list, use the visible order as the sync order and locate each source page through the site's own navigation or current browser state.

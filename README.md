@@ -79,6 +79,12 @@ See [references/webpage-types.md](references/webpage-types.md) for classificatio
 
 This project does not bypass login, CAPTCHA, MFA, permission controls, anti-hotlinking, or paywalls. For login-gated pages, it only uses already-visible browser content and asks the user to complete any required access steps manually.
 
+## Legal Use Notice
+
+This project is provided only for personal learning, testing, internal knowledge management, and processing content that you are legally allowed to access and reuse.
+
+Do not use it for illegal profit, copyright infringement, unauthorized scraping, redistribution of protected content, privacy violations, account abuse, or any activity that infringes the rights of platforms, authors, organizations, or other third parties. Users are responsible for complying with applicable laws, platform terms, copyright rules, privacy policies, and internal company policies.
+
 ## License
 
 MIT © mumushuo
