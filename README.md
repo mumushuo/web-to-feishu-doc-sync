@@ -4,7 +4,7 @@ Sync useful content from webpages into Feishu/Lark Docs or Wiki while preserving
 
 [中文介绍](README.zh-CN.md)
 
-This repository contains a reusable Codex skill plus a small Markdown assembly helper. It is designed for documentation migration, article archiving, product page summarization, and knowledge-base maintenance.
+This repository contains a reusable Agent Skill plus a small Markdown assembly helper. It is designed for documentation migration, article archiving, product page summarization, and knowledge-base maintenance.
 
 ## What It Does
 
@@ -47,7 +47,7 @@ web-to-feishu-doc-sync/
 
 ### Download and Installation
 
-See the Chinese guide for download links and installation steps: [README.zh-CN.md#快速开始](README.zh-CN.md#快速开始).
+See the Chinese guide for download links and installation steps for common Agent environments: [README.zh-CN.md#快速开始](README.zh-CN.md#快速开始).
 
 ### Use the Skill
 

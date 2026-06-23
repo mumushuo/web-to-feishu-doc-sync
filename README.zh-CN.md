@@ -3,7 +3,7 @@
 > 把网页、文章、技术文档和视觉页面同步到飞书文档或知识库，并尽量保留结构、代码块、图片和来源链接。
 
 <p align="center">
-  <a href="https://github.com/mumushuo/web-to-feishu-doc-sync"><img src="https://img.shields.io/badge/Codex-Skill-blue?style=flat-square"/></a>
+  <a href="https://github.com/mumushuo/web-to-feishu-doc-sync"><img src="https://img.shields.io/badge/Agent-Skill-blue?style=flat-square"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square"/></a>
   <a href="https://github.com/mumushuo/web-to-feishu-doc-sync/issues"><img src="https://img.shields.io/github/issues/mumushuo/web-to-feishu-doc-sync?style=flat-square"/></a>
 </p>
@@ -27,7 +27,7 @@
 - 文章、教程、落地页需要保留来源链接，方便后续追溯。
 - 已有飞书文档不能直接覆盖，否则容易破坏人工补充内容。
 
-这个 Skill 的目标是把这些动作标准化：先识别网页类型，再提取有效内容，最后写入或补充到飞书文档/知识库，并进行结果校验。
+这个 Agent Skill 的目标是把这些动作标准化：先识别网页类型，再提取有效内容，最后写入或补充到飞书文档/知识库，并进行结果校验。
 
 ---
 
@@ -71,7 +71,7 @@
 
 ## 快速开始
 
-### 安装为 Codex Skill
+### 安装为通用 Agent Skill
 
 下载入口：
 
@@ -79,7 +79,16 @@
 - 完整 Skill 文件：[SKILL.md](https://github.com/mumushuo/web-to-feishu-doc-sync/blob/main/SKILL.md)
 - Skill 文件夹版本：[skill/SKILL.md](https://github.com/mumushuo/web-to-feishu-doc-sync/blob/main/skill/SKILL.md)
 
-下载整个仓库，并放到你的 Codex skills 目录：
+这个仓库不限定在 Codex 使用。只要你的 Agent 支持 Skill、工具包、系统指令、工作流插件或自定义能力目录，都可以把 `SKILL.md` 的规则和配套脚本迁移过去。
+
+通用安装方式：
+
+1. 下载整个仓库。
+2. 将仓库放到目标 Agent 的 Skill/工具/插件目录。
+3. 如果目标 Agent 不支持文件夹式 Skill，可直接复制根目录 `SKILL.md` 的内容作为系统指令或自定义工作流说明。
+4. 如需结构化 Markdown 生成能力，同时保留 `scripts/assemble_markdown.py` 和 `examples/structured-extraction.json`。
+
+Codex 示例安装方式：
 
 ```bash
 git clone https://github.com/mumushuo/web-to-feishu-doc-sync.git
@@ -89,7 +98,7 @@ cp -R web-to-feishu-doc-sync ~/.codex/skills/
 
 完整 Skill 文件在仓库根目录：[SKILL.md](SKILL.md)。同时也保留了一份镜像文件：[skill/SKILL.md](skill/SKILL.md)，方便只查看 Skill 内容。
 
-### 方式一：作为 Codex Skill 使用
+### 方式一：作为 Agent Skill 使用
 
 ```text
 Use $web-to-feishu-doc-sync to sync this webpage into the target Feishu document.
@@ -119,7 +128,7 @@ web-to-feishu-doc-sync/
 ├── CHANGELOG.md
 ├── LICENSE
 ├── skill/
-│   └── SKILL.md              # Codex Skill 主说明
+│   └── SKILL.md              # Agent Skill 主说明
 ├── references/
 │   └── webpage-types.md      # 页面类型判断与提取策略
 ├── scripts/
