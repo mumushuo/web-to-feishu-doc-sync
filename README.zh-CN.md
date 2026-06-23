@@ -71,6 +71,18 @@
 
 ## 快速开始
 
+### 安装为 Codex Skill
+
+下载整个仓库，并放到你的 Codex skills 目录：
+
+```bash
+git clone https://github.com/mumushuo/web-to-feishu-doc-sync.git
+mkdir -p ~/.codex/skills
+cp -R web-to-feishu-doc-sync ~/.codex/skills/
+```
+
+完整 Skill 文件在仓库根目录：[SKILL.md](SKILL.md)。同时也保留了一份镜像文件：[skill/SKILL.md](skill/SKILL.md)，方便只查看 Skill 内容。
+
 ### 方式一：作为 Codex Skill 使用
 
 ```text

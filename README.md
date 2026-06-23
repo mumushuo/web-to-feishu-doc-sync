@@ -45,6 +45,20 @@ web-to-feishu-doc-sync/
 
 ## Quick Start
 
+### Install as a Codex Skill
+
+Download this repository and place it under your Codex skills directory:
+
+```bash
+git clone https://github.com/mumushuo/web-to-feishu-doc-sync.git
+mkdir -p ~/.codex/skills
+cp -R web-to-feishu-doc-sync ~/.codex/skills/
+```
+
+The complete skill entry file is available at [SKILL.md](SKILL.md). The same content is also mirrored at [skill/SKILL.md](skill/SKILL.md) for readers who prefer a dedicated skill folder view.
+
+### Use the Skill
+
 Use the skill when you need to copy a webpage into Feishu/Lark:
 
 ```text
